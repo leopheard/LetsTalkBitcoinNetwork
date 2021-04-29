@@ -24,7 +24,7 @@ def get_playable_podcast1(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://letstalkbitcoin.com/resources/files/images/LTBNETWORK-LOGO3.jpg",
         }
         subjects.append(item)
     return subjects
@@ -55,7 +55,7 @@ def get_playable_podcast(soup1):
         item = {
                 'url': link,
                 'title': title,
-                'thumbnail': thumbnail,
+                'thumbnail': "https://letstalkbitcoin.com/resources/files/images/LTBNETWORK-LOGO3.jpg",
         }
         subjects.append(item)
     return subjects
