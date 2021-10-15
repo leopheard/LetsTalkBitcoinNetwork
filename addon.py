@@ -9,11 +9,11 @@ def main_menu():
         {
             'label': plugin.get_string(30001), 
             'path': plugin.url_for('episodes1'),
-            'thumbnail': "https://letstalkbitcoin.com/resources/files/images/LTBNETWORK-LOGO3.jpg"},
+            'thumbnail': "https://github.com/leopheard/letstalkbitcoinnetwork/blob/master/resources/media/icon.jpg?raw=true"},
         {
             'label': plugin.get_string(30000),
             'path': plugin.url_for('episodes'),
-            'thumbnail': "https://letstalkbitcoin.com/resources/files/images/LTBNETWORK-LOGO3.jpg"},
+            'thumbnail': "https://github.com/leopheard/letstalkbitcoinnetwork/blob/master/resources/media/icon.jpg?raw=true"},
     ]
     return items
 
